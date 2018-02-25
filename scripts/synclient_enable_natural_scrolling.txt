@@ -1,6 +1,10 @@
 ## Enable universal natural scrolling using synclient
 
-add following snippet to profile or .profile file
+Add the synclient_enable_natural_scrolling.sh file as a statup script by going to
+
+Settings > Session and Startup > Application Autostart > Add
+
+OR by add following snippet to /etc/profile or ~/.profile file
 
 # enable synclient natural scrolling
 if [[ -f "$PATH_TO_FILE/synclient_enable_natural_scrolling.sh" ]]; then
