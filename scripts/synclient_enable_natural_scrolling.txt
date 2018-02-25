@@ -1,0 +1,14 @@
+## Enable universal natural scrolling using synclient
+
+add following snippet to profile or .profile file
+
+# enable synclient natural scrolling
+if [[ -f "$PATH_TO_FILE/synclient_enable_natural_scrolling.sh" ]]; then
+    "$PATH_TO_FILE/synclient_enable_natural_scrolling.sh"
+fi
+
+References
+- https://askubuntu.com/questions/690512/how-to-enable-natural-scrolling-in-xfce4
+
+Additional References
+- https://ducfilan.wordpress.com/2016/09/20/enable-system-wide-inverse-reverse-natural-scrolling-on-ubuntu-16-04/
